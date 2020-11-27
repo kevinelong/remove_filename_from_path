@@ -11,3 +11,11 @@ print(root_without_name("/foo/bar/name.txt"))
 print(root_without_name("foo/name.txt"))
 print(root_without_name("foo/bar/name.txt"))
 print(root_without_name("name.txt"))
+
+"""
+OUTPUT:
+/foo/bar
+foo
+foo/bar
+
+"""
